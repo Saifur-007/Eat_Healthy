@@ -1,0 +1,57 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+span{
+    color: tomato;
+}
+.button{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    color: aliceblue;
+    font: 700;
+    background:linear-gradient(#f46b45,#eea849);
+}
+section{
+    padding: 30px;
+}
+.top_page{
+    height: 501px;
+}
+.half_width_top_text{
+    width: 40%;
+    float: left;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.half_width_top_img{
+    float:right ;
+    width: 40%;
+}
+.half_width_top_img img{
+    width: 100%;
+}
+.about_me{
+    height: 500px;
+}
+.half_width_about_img{
+    width: 40%;
+    float: left;
+}
+.half_width_about_img img{
+    width: 66%;
+}
+.half_width_about_text{
+    width: 40%;
+    float: right;
+}
+.my_recipes{
+    height: 1000px;
+    padding-top: 70px;
+}
+
+.box_01 img{
+    width: 100px;
+    height: 100px;
+}
