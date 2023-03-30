@@ -1,73 +1,107 @@
 body{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 span{
-    color: tomato;
+    color: #FBA24F;
+}
+
+section{
+    display: flex;
 }
 .button{
     text-decoration: none;
-    border-radius: 8px;
-    padding: 10px 40px;
-    color: aliceblue;
-    font: 700;
-    background:linear-gradient(#f46b45,#eea849);
+    color: #ffff;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(#FBA24F,#FF1E1E);
+    padding: 15px 40px;
+    border-radius: 30px;
+    box-shadow: 5px 5px#888888;
 }
-.button {
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-}
-/*      Top Page    */
+/* Top Page */
 
 section .top_page{
-    height: 700px;
+    height: 800px;
+    padding-bottom: 150px;
 }
-.half_width_top_text{
+.top_page article{
     width: 40%;
-    float: left;
-    margin-left: 5%;
-    margin-top: 185px;
-    padding: 2%;
+    padding-top: 150px;
+    padding-left: 5%;
 }
-.half_width_top_text h1{
-    font-family: 'Rubik', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+.top_page h1{
+    color: #575757;
+    font-weight: bold;
+    font-size: 60px;
 }
-.half_width_top_img{
+.top_page p{
+    color: #828282;
+    font-size:medium;
+    font-size: 20px;
+}
+.top_page figure{
     width: 40%;
-    float: right;
-    margin-right: 5%;
-    padding: 2%;
-    mix-blend-mode: multiply;
+    padding-right: 5%;
+    padding-left: 10%;
 }
-.half_width_top_img img{
-    height: 700px;    
+.top_page img{
+    width: 100%;
 }
-/*      About Me    */
-
-section .about_me{
-    height: 500px;   
+.top_button{
+    padding-top: 20px;
 }
 
-.about_me{
-    background-image: url('images/About-me-Background.jpg');
+/* About Me */
+
+section .about_page{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.about_page{
+    background-image: url("images/About-me-Background.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: 100%;
 }
-.half_width_about_img{
+.about_page figure{
     width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding: 2%;
-    mix-blend-mode: multiply;
+    margin-top: 10%;
 }
-.half_width_about_img img{
-    height: 500px;
+.about_page img{
+    width: 50%;
+    padding-left: 160px;
 }
-.half_width_about_text{
+.about_page article{
     width: 40%;
-    float: right;
-    margin-right: 5%;
-    margin-top: 185px;
-    padding: 2%;
+    padding-top: 250px;
+    padding-left: 160px;
+}
+.about_page h2{
+    font-weight: bold;
+    font-size: 54px;
+    color: #707070;
+}
+.about_page p{
+    color: #828282;
+    font-size:medium;
+    font-size: 32px;
+}
+.about_button{
+    padding-top: 20px;
+}
+/* My Recipes */
+section .my_recipes{
+    height: 1200px;
+    padding-bottom: 150px;
+}
+.my_recipes_text h2{
+    color: #676767;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.my_recipes_text p{
+    color: #252525;
+    font-size: 18px;
+    text-align: center;
 }
