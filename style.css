@@ -8,6 +8,7 @@ span{
 
 section{
     display: flex;
+    justify-content: center;
 }
 .button{
     text-decoration: none;
@@ -104,4 +105,90 @@ section .my_recipes{
     color: #252525;
     font-size: 18px;
     text-align: center;
+}
+.my_recipes{
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.card_01{
+    width: 700px;
+    height: 450px;
+    margin: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),
+    0 2px 4px -2px rgba(0,0,0,.1);
+    border-radius: 20px;
+}
+.card_02{
+    width: 700px;
+    height: 450px;
+    margin: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),
+    0 2px 4px -2px rgba(0,0,0,.1);
+    border-radius: 20px;
+}
+.card_article{
+    margin: 20px;
+}
+.card_article h3{
+    font-size: 28px;
+    color: #18191F;
+}
+.card_article p{
+    color: #18191F;
+    font-size: 18px;
+}
+.card_01_img{
+    background-color: aqua;
+    height: 240px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+.card_02_img{
+    background-color: aqua;
+    height: 240px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+.card_01_img{
+    background-image: url("images/Food-01.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px;
+}
+.card_02_img{
+    background-image: url("images/Food-01.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0px 0px;
+}
+.social_media{
+    width: 1427px;
+    height: 200px;
+    margin: 0 auto;
+    box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.social_media_text{
+    padding-right: 150px;
+    padding-top: 50px;
+    display: flex;
+    width: 200px;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+}
+
+
+.social_media_text_h1{
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 48px;
+}
+
+.social_media_text_p{
+    /* margin-left: -13px; */
+    font-weight: 400;
+    font-size: 16px;
 }
